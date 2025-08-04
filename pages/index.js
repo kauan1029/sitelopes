@@ -25,7 +25,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center px-6">
+    <div className="min-h-screen flex items-center justify-center px-6 bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364]">
       <div
         className="bg-white bg-opacity-10 backdrop-blur-md rounded-3xl shadow-xl max-w-lg w-full p-10
           border border-white border-opacity-20"
@@ -64,7 +64,7 @@ export default function Home() {
         </button>
       </div>
 
-      <footer className="mt-10 text-gray-400 text-sm select-none">
+      <footer className="absolute bottom-6 text-gray-400 text-sm select-none w-full text-center">
         Desenvolvido por{" "}
         <a
           href="https://github.com/77lopesx"
